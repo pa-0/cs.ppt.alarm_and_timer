@@ -1,0 +1,8 @@
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.exe.config
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.exe
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.pdb
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm_Clock.Form1.resources
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm_Clock.Properties.Resources.resources
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csproj.GenerateResource.Cache
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.exe
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.pdb
