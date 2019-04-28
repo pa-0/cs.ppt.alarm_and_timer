@@ -14,7 +14,7 @@ namespace Alarm_Clock
 {
     public partial class Form1 : Form
     {
-        SoundPlayer player = new SoundPlayer();       
+        SoundPlayer audio = new SoundPlayer(Properties.Resources.alarmsound);
         int min, hr, sec,millisec;
         public Form1()
         {
@@ -58,7 +58,7 @@ namespace Alarm_Clock
         private void btnStop_Click(object sender, EventArgs e)
         {
             timerAlarm.Stop();
-            player.Stop();
+            audio.Stop();
             labelStatus.Text = "Alarm is not set.";            
             btnStart.Enabled = true;
             btnStop.Enabled = false;
@@ -70,9 +70,8 @@ namespace Alarm_Clock
             DateTime CurrentTime = DateTime.Now;
             DateTime AlarmTime = dateTimePicker.Value;
             if (CurrentTime.Year==AlarmTime.Year && CurrentTime.Month==AlarmTime.Month && CurrentTime.Day==AlarmTime.Day && CurrentTime.Hour == AlarmTime.Hour && CurrentTime.Minute == AlarmTime.Minute && CurrentTime.Second == AlarmTime.Second)
-            {                
-                player.SoundLocation = @"F:\Study Material\C#\Binay worked\Alarm Clock\alarmsound.wav";
-                player.PlayLooping();
+            {               
+                audio.PlayLooping();
             }
         }
 

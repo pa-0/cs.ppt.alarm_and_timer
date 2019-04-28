@@ -7,3 +7,13 @@ F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Debug\Alarm Clock.
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Debug\Alarm Clock.exe
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Debug\Alarm Clock.pdb
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Debug\Alarm Clock.csprojResolveAssemblyReference.cache
+E:\CodeTopro\Alarm\Alarm Clock\bin\Debug\Alarm Clock.exe.config
+E:\CodeTopro\Alarm\Alarm Clock\bin\Debug\Alarm Clock.exe
+E:\CodeTopro\Alarm\Alarm Clock\bin\Debug\Alarm Clock.pdb
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm_Clock.Form1.resources
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm_Clock.Properties.Resources.resources
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm Clock.csproj.GenerateResource.cache
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm Clock.csproj.CoreCompileInputs.cache
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm Clock.exe
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm Clock.pdb
+E:\CodeTopro\Alarm\Alarm Clock\obj\Debug\Alarm Clock.csprojAssemblyReference.cache
