@@ -14,7 +14,7 @@ namespace Alarm_Clock
 {
     public partial class Form1 : Form
     {
-        SoundPlayer audio = new SoundPlayer(Properties.Resources.alarmsound);
+        SoundPlayer player = new SoundPlayer();       
         int min, hr, sec,millisec;
         public Form1()
         {
@@ -30,6 +30,7 @@ namespace Alarm_Clock
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            bunifuiOSSwitch1.Value = false;
             btnStop.Enabled = false;
             btnTimerPause.Enabled = false;
             btnTimerReset.Enabled = false;
@@ -58,7 +59,7 @@ namespace Alarm_Clock
         private void btnStop_Click(object sender, EventArgs e)
         {
             timerAlarm.Stop();
-            audio.Stop();
+            player.Stop();
             labelStatus.Text = "Alarm is not set.";            
             btnStart.Enabled = true;
             btnStop.Enabled = false;
@@ -70,8 +71,16 @@ namespace Alarm_Clock
             DateTime CurrentTime = DateTime.Now;
             DateTime AlarmTime = dateTimePicker.Value;
             if (CurrentTime.Year==AlarmTime.Year && CurrentTime.Month==AlarmTime.Month && CurrentTime.Day==AlarmTime.Day && CurrentTime.Hour == AlarmTime.Hour && CurrentTime.Minute == AlarmTime.Minute && CurrentTime.Second == AlarmTime.Second)
-            {               
-                audio.PlayLooping();
+            {
+                //SpeechSynthesizer speaks = new SpeechSynthesizer();
+                //speaks.SetOutputToDefaultAudioDevice();
+                //speaks.Speak("Fuck you guys");
+
+                //player.SoundLocation = @"alarmsound.wav";
+                //player.PlayLooping(); 
+                SoundPlayer audio = new SoundPlayer(Alarm_Clock.Properties.Resources.alarmsound); // here WindowsFormsApplication1 is the namespace and Connect is the audio file name
+                audio.Play();
+                audio.PlayLooping();                               
             }
         }
 
@@ -84,6 +93,21 @@ namespace Alarm_Clock
             btnTimerReset.Enabled = false;
             btnTimerStart.Enabled = true;
             btnTimerPause.Enabled = false;
+        }
+
+        private void BunifuiOSSwitch1_OnValueChange(object sender, EventArgs e)
+        {
+            if (bunifuiOSSwitch1.Value==true)
+            {
+                this.BackColor = Color.FromArgb(48, 48, 48);
+                this.ForeColor = Color.FromArgb(106, 123, 132);
+                btnStart.ForeColor = Color.White;
+            }
+            else if (bunifuiOSSwitch1.Value==false)
+            {
+                this.BackColor = Color.FromArgb(240, 240, 240);
+                this.ForeColor = Color.Black;
+            }
         }
 
         private void btnTimerStart_Click(object sender, EventArgs e)

@@ -6,13 +6,14 @@ F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm_Cloc
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csproj.GenerateResource.Cache
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.exe
 F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.pdb
-E:\CodeTopro\Alarm\Alarm Clock\bin\Release\Alarm Clock.exe.config
-E:\CodeTopro\Alarm\Alarm Clock\bin\Release\Alarm Clock.exe
-E:\CodeTopro\Alarm\Alarm Clock\bin\Release\Alarm Clock.pdb
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm Clock.csprojAssemblyReference.cache
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm_Clock.Form1.resources
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm_Clock.Properties.Resources.resources
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm Clock.csproj.GenerateResource.cache
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm Clock.csproj.CoreCompileInputs.cache
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm Clock.exe
-E:\CodeTopro\Alarm\Alarm Clock\obj\Release\Alarm Clock.pdb
+F:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csprojResolveAssemblyReference.cache
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.exe.config
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.exe
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\bin\Release\Alarm Clock.pdb
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csprojAssemblyReference.cache
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm_Clock.Form1.resources
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm_Clock.Properties.Resources.resources
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csproj.GenerateResource.cache
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.csproj.CoreCompileInputs.cache
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.exe
+E:\Study Material\C#\Binay worked\Alarm Clock\Alarm Clock\obj\Release\Alarm Clock.pdb

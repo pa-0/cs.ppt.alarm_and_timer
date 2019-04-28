@@ -51,6 +51,7 @@
             this.btnTimerPause = new System.Windows.Forms.Button();
             this.btnTimerReset = new System.Windows.Forms.Button();
             this.timerStopwatch = new System.Windows.Forms.Timer(this.components);
+            this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.groupBoxAlarm.SuspendLayout();
             this.groupBoxStopwatch.SuspendLayout();
             this.SuspendLayout();
@@ -143,6 +144,7 @@
             // 
             // groupBoxStopwatch
             // 
+            this.groupBoxStopwatch.Controls.Add(this.bunifuiOSSwitch1);
             this.groupBoxStopwatch.Controls.Add(this.label4);
             this.groupBoxStopwatch.Controls.Add(this.label3);
             this.groupBoxStopwatch.Controls.Add(this.label2);
@@ -269,6 +271,22 @@
             this.timerStopwatch.Interval = 10;
             this.timerStopwatch.Tick += new System.EventHandler(this.timerStopwatch_Tick);
             // 
+            // bunifuiOSSwitch1
+            // 
+            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
+            this.bunifuiOSSwitch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(212, 22);
+            this.bunifuiOSSwitch1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
+            this.bunifuiOSSwitch1.OffColor = System.Drawing.Color.Gray;
+            this.bunifuiOSSwitch1.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(202)))), ((int)(((byte)(94)))));
+            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(43, 25);
+            this.bunifuiOSSwitch1.TabIndex = 4;
+            this.bunifuiOSSwitch1.Value = true;
+            this.bunifuiOSSwitch1.OnValueChange += new System.EventHandler(this.BunifuiOSSwitch1_OnValueChange);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -313,6 +331,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.DateTimePicker dateTimePicker;
+        private Bunifu.Framework.UI.BunifuiOSSwitch bunifuiOSSwitch1;
     }
 }
 
